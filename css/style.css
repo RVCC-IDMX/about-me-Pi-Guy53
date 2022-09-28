@@ -1,0 +1,22 @@
+header
+{
+    font-family: Anton;
+}
+
+p, ol
+{
+    color: #000022;
+    background-color: #EEEEEE;
+
+    font-family: "Times New Roman", serif;
+
+    text-align: center;
+
+    border: 1px solid #000000;
+    padding: 3px;
+}
+
+ol
+{
+    text-align: left;
+}

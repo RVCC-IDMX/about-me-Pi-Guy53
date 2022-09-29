@@ -1,22 +1,39 @@
 header
 {
+    padding: 1rem;
     font-family: Anton;
+    text-align: center;
 }
 
 p, ol
 {
     color: #000022;
-    background-color: #EEEEEE;
-
-    font-family: "Times New Roman", serif;
+    background-color: #FEFEFE;
+    font-family: Barlow, serif;
 
     text-align: center;
 
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     padding: 3px;
 }
 
 ol
 {
+    padding: 2rem;
     text-align: left;
+}
+
+footer
+{
+    text-align: center;
+}
+
+#IWantTo
+{
+    text-align: center;
+}
+
+#hero
+{
+    text-align: center;
 }

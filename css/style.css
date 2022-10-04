@@ -5,15 +5,21 @@ header
     text-align: center;
 }
 
+#bob
+{
+    text-align: left;
+    border: 1px dashed #0221AD;
+}
+
 p, ol
 {
-    color: #000022;
+    color: #0221AD;
     background-color: #FEFEFE;
     font-family: Barlow, serif;
 
     text-align: center;
 
-    border: 2px solid #000000;
+    border: 2px solid #29F8Fa;
     padding: 3px;
 }
 
@@ -33,7 +39,46 @@ footer
     text-align: center;
 }
 
-#hero
+#avatar
 {
     text-align: center;
+}
+
+.hero
+{
+    text-align: left;
+    font-family: Anton;
+}
+
+.hero p
+{
+    text-align: left;
+    padding: .05rem;
+    font-family: Barlow, serif;
+}
+
+.redacted
+{
+    color: #0221AD;
+    background-color: #000000;
+    
+    border: 1px dotted #0221AD;
+    padding: .05rem;
+}
+
+#contactInfo
+{
+    color: #0221AD;
+    background-color: #FEFEFE;
+    font-family: Barlow, serif;
+
+    text-align: left;
+    border: 2px solid #29F8Fa;
+    
+    padding: 3px;
+}
+
+#contectHeader
+{
+    font-family: Anton;
 }

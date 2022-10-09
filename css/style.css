@@ -11,7 +11,7 @@ header
     border: 1px dashed #0221AD;
 }
 
-p, ol
+p
 {
     color: #0221AD;
     background-color: #FEFEFE;
@@ -19,14 +19,31 @@ p, ol
 
     text-align: center;
 
-    border: 2px solid #29F8Fa;
     padding: 3px;
 }
 
-ol
+#IWantTo
 {
-    padding: 2rem;
-    text-align: left;
+    color: #0221AD;
+    background-color: #FEFEFE;
+
+    font-family: Barlow, serif;
+
+    padding:  1rem;
+    border: 2px solid #29F8Fa;
+
+    margin-bottom: 1rem;
+}
+
+#hobbies
+{
+    color: #0221AD;
+    background-color: #FEFEFE;
+
+    font-family: Barlow, serif;
+
+    padding:  1rem;
+    border: 2px solid #29F8Fa;
 }
 
 footer
@@ -51,11 +68,6 @@ footer
 #contectHeader
 {
     font-family: Anton;
-}
-
-#IWantTo
-{
-    text-align: center;
 }
 
 #avatar
@@ -83,13 +95,4 @@ footer
     
     border: 1px dotted #0221AD;
     padding: .05rem;
-}
-
-#hobbies
-{
-    color: #0221AD;
-    background-color: #FEFEFE;
-    
-    padding:  1rem;
-    border: 2px solid #29F8Fa;
 }

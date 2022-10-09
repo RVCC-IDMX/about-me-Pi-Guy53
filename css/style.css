@@ -84,6 +84,57 @@ p
     max-width: 75%;
 }
 
+#article
+{
+    /*background-image: radial-gradient(black,black, #444444, white); /* good looking border might use later*/
+    border: .75rem ridge black;
+    margin-top: 1rem;
+
+    background-image: linear-gradient(90deg, #220000, black, #220000);
+}
+
+#article h2
+{
+    font-family: Anton;
+    padding: 2rem;
+    text-align: center;
+    color: #CC0000;
+}
+
+#article p
+{
+    font-family: Anton;
+    text-align: left;
+    color: #CC0000;
+    background-color: rgba(0,0,0,0);
+
+    padding: 1rem;
+}
+
+#article p::first-letter
+{
+    color: black;
+    float: left;
+    font-size: 32pt;
+    line-height: .25rem;
+
+    padding: 1.5rem;
+
+    border: 4px ridge black;
+    border-radius: 3rem 0 3rem 0;
+
+    box-shadow: 0rem 0rem 1rem rgba(255, 0, 0, 64);
+
+    background-image:radial-gradient(darkred,gold, #CC0000);
+    margin: .35rem;
+}
+
+#article div
+{
+    max-width: 55rem;
+    margin: 0 auto;
+}
+
 footer
 {
     clear: both;

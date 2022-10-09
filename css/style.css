@@ -31,39 +31,9 @@ ol
 
 footer
 {
+    clear: both;
+    padding-top: 1rem;
     text-align: center;
-}
-
-#IWantTo
-{
-    text-align: center;
-}
-
-#avatar
-{
-    text-align: center;
-}
-
-.hero
-{
-    text-align: left;
-    font-family: Anton;
-}
-
-.hero p
-{
-    text-align: left;
-    padding: .05rem;
-    font-family: Barlow, serif;
-}
-
-.redacted
-{
-    color: #0221AD;
-    background-color: #000000;
-    
-    border: 1px dotted #0221AD;
-    padding: .05rem;
 }
 
 #contactInfo
@@ -81,4 +51,45 @@ footer
 #contectHeader
 {
     font-family: Anton;
+}
+
+#IWantTo
+{
+    text-align: center;
+}
+
+#avatar
+{
+    text-align: center;
+}
+
+#hero
+{
+    text-align: left;
+    font-family: Anton;
+}
+
+#hero p
+{
+    text-align: left;
+    padding: .05rem;
+    font-family: Barlow, serif;
+}
+
+.redacted
+{
+    color: #0221AD;
+    background-color: #000000;
+    
+    border: 1px dotted #0221AD;
+    padding: .05rem;
+}
+
+#hobbies
+{
+    color: #0221AD;
+    background-color: #FEFEFE;
+    
+    padding:  1rem;
+    border: 2px solid #29F8Fa;
 }

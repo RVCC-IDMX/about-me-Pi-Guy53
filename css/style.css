@@ -122,6 +122,7 @@ p
 {
     font-family: Anton;
     text-align: left;
+    font-size: 16;
     color: #CC0000;
     background-color: rgba(0,0,0,0);
 
@@ -200,6 +201,47 @@ my screen is not setup to go down low enough to trigger this section */
         align-items: center;
 
         font-size: 28pt;
+    }
+
+    #article div {
+        max-width: 100%;
+        columns: 40rem;
+    }
+
+    #article p::first-letter
+    {
+        clear: both;
+
+        border: 0px;
+        box-shadow: 0rem 0rem 0rem rgba(0, 0, 0, 0);
+        line-height: 1em;
+
+        font-size: 16pt;
+        font-family: Anton;
+        text-align: left;
+        color: #CC0000;
+        background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+
+        padding: 0px;
+        margin: 3px;
+    }
+    #article p:first-child::first-letter
+    {
+        
+        color: black;
+        float: left;
+        font-size: 32pt;
+        line-height: .25rem;
+
+        padding: 1.5rem;
+
+        border: 4px ridge black;
+        border-radius: 3rem 0 3rem 0;
+
+        box-shadow: 0rem 0rem 1rem rgba(255, 0, 0, 64);
+
+        background-image:radial-gradient(darkred,gold, #CC0000);
+        margin: .35rem;
     }
 
  }

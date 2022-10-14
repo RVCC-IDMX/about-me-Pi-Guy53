@@ -93,6 +93,7 @@ p
 #photos figure
 {
     text-align: center;
+    font-size: 22pt;
 }
 
 #photos img
@@ -184,3 +185,21 @@ footer
     padding: .05rem;
 }
 
+@media screen and (min-width: 150em) /* Set a 150em for testing only, will change down to 60 later
+my screen is not setup to go down low enough to trigger this section */
+{
+
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 28pt;
+    }
+
+ }

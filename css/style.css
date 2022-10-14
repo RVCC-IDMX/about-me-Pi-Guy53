@@ -20,6 +20,10 @@ header
 {
     text-align: left;
     font-family: Anton;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #hero p
@@ -27,6 +31,10 @@ header
     text-align: left;
     padding: .05rem;
     font-family: Barlow, serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 p
@@ -51,6 +59,10 @@ p
     border: 2px solid #29F8Fa;
 
     margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #hobbies
@@ -64,6 +76,10 @@ p
     border: 2px solid #29F8Fa;
 
     margin-bottom: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #photos
@@ -167,3 +183,4 @@ footer
     border: 1px dotted #0221AD;
     padding: .05rem;
 }
+

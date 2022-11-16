@@ -201,9 +201,43 @@ footer
     height: 160px;
 }
 
+#contact
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#contact h2
+{
+    text-align: center;
+    font-family: Anton;
+    font-size: 28pt;
+}
+
+#contactForm label
+{
+    margin-top: .25rem;
+}
+
 #formElements
 {
     display: grid;
+    width: 100%;
+    font-family: Barlow, serif;
+    padding: .25rem;
+}
+
+fieldset
+{
+   border: 2px solid #29F8Fa;
+   color: #0221ad;
+}
+
+button{
+    width: 40%;
+    color: #fff;
+    background-color: #0221ad;
+    margin-top: .25rem;
 }
 
 @media screen and (min-width: 60em)

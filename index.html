@@ -146,8 +146,67 @@
 
             </section>
 
-            <section id="Links">
+            <section id="contact">
+                <br>
+                <div>
+                <h2> Contact Us</h2>
+                
+                <form id ="contactForm" name = "contactForm" data-netlify = "true" method="post">
+                    <fieldset> 
+                        <legend>Contact Form</legend> 
 
+                        <div id = "formElements">
+                            <label for="name"> Name (required)</label>
+                            <input type = "text" id = "name" name ="name" required>
+
+
+                            <label for="email"> Email (required)</label>
+                            <input type = "email" id = "email" name ="email" required>
+
+
+                            <label for="phonenum"> Phone (optional)</label>
+                            <input type = "tel" id = "phonenum" name ="phonenum">
+
+
+                            <label for="phonet"> Phone Type (optional)</label>
+                            <select name="phonet" id="phonet">
+                                <option value ="" selected> Select Phone Type </option>
+                                <option value ="mobile"> Mobile </option>
+                                <option value ="work"> Work </option>
+                                <option value ="home"> Home </option>
+                            </select>
+
+
+                            <label for="comments"> Additional Comments (optional)</label>
+                            <textarea id = "comments" name ="comments" placeholder="Type your comments..." rows = "8"></textarea>
+
+                            <fieldset>
+                                <legend>Would You Like A Reply?</legend>
+                                <ul>
+                                    <li>
+                                        <input type = "radio" id = "msg-yes" name = "replyop" value = "yes"> 
+                                        <label for ="msg-yes">Yes, I would like a reply.</label>
+                                    </li>
+                                    <li>
+                                        <input type = "radio" id = "msg-no" name = "replyop" value = "no" checked> 
+                                        <label for = "msg-no">No, thanks.</label>
+                                    </li>
+                                </ul>
+
+                            </fieldset>
+
+                            <button type ="Submit">Submit</button>
+
+                        </div>
+                    </fieldset>
+
+                </form>
+                </div>
+
+            </section>
+
+            <section id="Links">
+                <br>
                 <form>
                     <label for="pswd">Enter your password: </label>
                     <input type="password" id="pswd">
@@ -252,63 +311,6 @@
                 <a href="html/contact.html"> <img src = "img/raven.png" width="40" alt="Black Raven"></a>
                 <!-- Same link with text-->
                 <a href="html/contact.html"> Contact Info</a>
-            </section>
-
-            <section if="contact">
-                <h2> Contact Us</h2>
-                
-                <form id ="contactForm" name = "contactForm" data-netlify = "true" method="post">
-                    <fieldset> 
-                        <legend>Contact Form</legend> 
-
-                        <div id = "formElements">
-                            <label for="name"> Name (required)</label>
-                            <input type = "text" id = "name" name ="name" required>
-
-
-                            <label for="email"> Email (required)</label>
-                            <input type = "email" id = "email" name ="email" required>
-
-
-                            <label for="phonenum"> Phone (optional)</label>
-                            <input type = "tel" id = "phonenum" name ="phonenum">
-
-
-                            <label for="phonet"> Phone Type (optional)</label>
-                            <select name="phonet" id="phonet">
-                                <option value ="" selected> Select Phone Type </option>
-                                <option value ="mobile"> Mobile </option>
-                                <option value ="work"> Work </option>
-                                <option value ="home"> Home </option>
-                            </select>
-
-
-                            <label for="comments"> Additional Comments (optional)</label>
-                            <textarea id = "comments" name ="comments" placeholder="Type your comments..." rows = "8"></textarea>
-
-                            <fieldset>
-                                <legend>Would You Like A Reply?</legend>
-                                <ul>
-                                    <li>
-                                        <input type = "radio" id = "msg-yes" name = "replyop" value = "yes"> 
-                                        <label for ="msg-yes">Yes, I would like a reply.</label>
-                                    </li>
-                                    <li>
-                                        <input type = "radio" id = "msg-no" name = "replyop" value = "no" checked> 
-                                        <label for = "msg-no">No, thanks.</label>
-                                    </li>
-                                </ul>
-
-                            </fieldset>
-
-                            <button type ="Submit">Submit</button>
-
-                        </div>
-                    </fieldset>
-
-                </form>
-
-
             </section>
 
         </main>

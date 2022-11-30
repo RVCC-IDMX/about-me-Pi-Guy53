@@ -5,10 +5,9 @@ The HTML project for a web site that is 'About Me' or rather about a certain Mr.
 
 This project was to learn about HTML and CSS coding, as well as to poke a little into JS. I learned how to create headers, tables, use grid and flex layouts, as well as how to target specific elements for styling (such as drop caps for letters)
 
-<span style="color:blue">some *blue* text</span>.
+<div style="color:blue;">some *blue* text</div>.
 
 [Crow icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/crow)
-
 Trident logo by NJ Huff, &copy;2020
 
 -Pi-Guy53:

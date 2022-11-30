@@ -114,11 +114,24 @@ p
 #photos img
 {
     max-width: 75%;
+    border-radius: 20px;
+}
+
+#photos img:hover~.imghover
+{
+    color: rgba(0, 0, 0, 255);
+    text-align: left;
 }
 
 #photos img:hover
+{   
+    box-shadow: 0px 10px 40px #CC0000;
+}
+
+.imghover
 {
-    box-shadow: 0px 5px 35px red;
+    color: rgba(0, 0, 0, 0);
+    position:absolute;
 }
 
 #article
@@ -232,8 +245,8 @@ footer
 
 .video iframe
 {
-    width: 280px;
-    height: 160px;
+    width: 560px;
+    height: 320px;
 }
 
 #contact
@@ -295,7 +308,6 @@ button{
 
 @media screen and (min-width: 60em)
 {
-
     figure {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -317,7 +329,7 @@ button{
     .video iframe
     {
         width: 560px;
-        height: 315px;
+        height: 320px;
     }
     
     #article p::first-letter
@@ -360,6 +372,7 @@ button{
 
  @media screen and (min-width: 80em)
 {
+
     #photos
     {
         display: grid;

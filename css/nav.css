@@ -42,13 +42,7 @@ main{
 
 #logo img
 {
-    height: 8vw;
-    width: 10vw;
-
-    mask-image: url(../img/mask-circle.png);
-    mask-size: 8vw;
-    mask-position: 2vw;
-    mask-repeat:no-repeat;
+    border-radius: 8vw;
 }
 
 #logo h1

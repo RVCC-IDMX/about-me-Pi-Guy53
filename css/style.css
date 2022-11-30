@@ -50,7 +50,7 @@ p
 
 #IWantTo
 {
-    color: #0221AD;
+    color: #29F8Fa;
     background-color: #FEFEFE;
 
     font-family: Barlow, serif;
@@ -67,13 +67,14 @@ p
 
 #hobbies
 {
-    color: #0221AD;
-    background-color: #FEFEFE;
+    color: #29F8Fa;
+    background-color: #333;
 
     font-family: Barlow, serif;
 
     padding:  1rem;
-    border: 2px solid #29F8Fa;
+    border-radius: 20px;
+    border: 5px solid #29F8Fa;
 
     margin-bottom: 1rem;
 
@@ -84,10 +85,11 @@ p
 
 #photos
 {
-    color: #0221AD;
-    background-color: #FEFEFE;
+    color: #29F8Fa;
+    background-color: #333;
 
-    border: 2px solid #29F8Fa;
+    border-radius: 20px;
+    border: 5px solid #29F8Fa;
 }
 
 #photos figure
@@ -104,10 +106,14 @@ p
 #article
 {
     /*background-image: radial-gradient(black,black, #444444, white); /* good looking border might use later*/
+    border-radius: 20px;
     border: .75rem ridge black;
     margin-top: 1rem;
 
     background-image: linear-gradient(90deg, #220000, black, #220000);
+
+    border-radius: 20px;
+    border: 5px solid #29F8Fa;
 }
 
 #article h2
@@ -138,12 +144,12 @@ p
 
     padding: 1.5rem;
 
-    border: 4px ridge black;
+    border: 4px ridge #000000;
     border-radius: 3rem 0 3rem 0;
 
     box-shadow: 0rem 0rem 1rem rgba(255, 0, 0, 64);
 
-    background-image:radial-gradient(darkred,gold, #CC0000);
+    background-image:radial-gradient(#CC0000,#ffd700, #CC0000);
     margin: .35rem;
 }
 
@@ -162,12 +168,11 @@ footer
 
 #contactInfo
 {
-    color: #0221AD;
     background-color: #FEFEFE;
     font-family: Barlow, serif;
 
     text-align: left;
-    border: 2px solid #29F8Fa;
+    border: 5px solid #29F8Fa;
     
     padding: 3px;
 }
@@ -184,15 +189,27 @@ footer
     
     border: 1px dotted #0221AD;
     padding: .05rem;
+
+    display: inline;
 }
 
 .video
 {
     text-align: center;
-    border: 2px solid #29F8Fa;
+
+    border-radius: 20px;
+    border: 5px solid #29F8Fa;
+    background-color: #333;
+
     margin-top: 1rem;
 
     padding: .5rem;
+}
+
+.video p
+{
+    color: #29F8Fa;
+    background-color: #333;
 }
 
 .video iframe
@@ -219,6 +236,16 @@ footer
     margin-top: .25rem;
 }
 
+#contactForm legend
+{
+    background-color: #333;
+    border-radius: 20px;
+    border-top: 5px solid #29F8Fa;
+
+    padding-left: .25rem;
+    padding-right: .25rem;
+}
+
 #formElements
 {
     display: grid;
@@ -229,15 +256,23 @@ footer
 
 fieldset
 {
-   border: 2px solid #29F8Fa;
-   color: #0221ad;
+   border-radius: 20px;
+   border: 5px solid #29F8Fa;
+
+   color: #29F8Fa;
+   background-color: #333;
 }
 
 button{
     width: 40%;
-    color: #fff;
-    background-color: #0221ad;
+    color: #333;
+    background-color: #29F8Fa;
     margin-top: .25rem;
+}
+
+#Links
+{
+    text-align: center;
 }
 
 @media screen and (min-width: 60em)

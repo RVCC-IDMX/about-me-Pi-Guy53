@@ -11,8 +11,6 @@ This project was to learn about HTML and CSS coding, as well as to poke a little
 
 <img src = "img/color-swatches.png" style="width:100px;"/>
 
-![](/img/color-swatches.png)
-
 [Crow icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/crow)
 Trident logo by NJ Huff, &copy;2020
 

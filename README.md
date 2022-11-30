@@ -5,9 +5,11 @@ The HTML project for a web site that is 'About Me' or rather about a certain Mr.
 
 This project was to learn about HTML and CSS coding, as well as to poke a little into JS. I learned how to create headers, tables, use grid and flex layouts, as well as how to target specific elements for styling (such as drop caps for letters)
 
-#333333 #29f8fa #fefefe
-#0221ad #cc0000 #ffd700
-#000000 #220000
+#333333, #29f8fa, #fefefe,
+<br>
+#0221ad, #cc0000, #ffd700,
+<br>
+#000000, #220000
 
 <img src = "img/color-swatches.png" style="width:100px;"/>
 

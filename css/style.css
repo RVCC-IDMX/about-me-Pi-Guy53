@@ -44,18 +44,21 @@ header
 #hero p
 {
     text-align: left;
-    padding: .05rem;
+    padding: .5rem;
     font-family: Barlow, serif;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    border-radius: 20px;
+    border: 5px solid #29F8Fa;
 }
 
 p
 {
-    color: #0221AD;
-    background-color: #FEFEFE;
+    color: #29F8Fa;
+    background-color: #333;
     font-family: Barlow, serif;
 
     text-align: center;
@@ -63,21 +66,14 @@ p
     padding: 3px;
 }
 
-#IWantTo
+#bio
 {
     color: #29F8Fa;
-    background-color: #FEFEFE;
-
-    font-family: Barlow, serif;
-
+    background-color: #333;
     padding:  1rem;
-    border: 2px solid #29F8Fa;
 
-    margin-bottom: 1rem;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border-radius: 20px;
+    border: 5px solid #29F8Fa;
 }
 
 #hobbies
@@ -93,9 +89,11 @@ p
 
     margin-bottom: 1rem;
 
+    /*
     display: flex;
     flex-direction: column;
     align-items: center;
+    */
 }
 
 #photos
@@ -116,6 +114,11 @@ p
 #photos img
 {
     max-width: 75%;
+}
+
+#photos img:hover
+{
+    box-shadow: 0px 5px 35px red;
 }
 
 #article

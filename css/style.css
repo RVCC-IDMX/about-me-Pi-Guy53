@@ -5,10 +5,9 @@ header
     text-align: center;
 }
 
-#bob
+body
 {
-    text-align: left;
-    border: 1px dashed #0221AD;
+    background-color: #ddd;
 }
 
 .avatar
@@ -17,8 +16,8 @@ header
 
     border-radius: 25%;
     padding: 2rem;
-    border-left: 5px solid #29F8Fa;
-    border-right: 5px solid #29F8Fa;
+    border-left: 5px ridge #29F8Fa;
+    border-right: 5px ridge #29F8Fa;
 
     background-color: #333;
 }
@@ -27,24 +26,36 @@ header
 {
     border-radius: 25%;
     padding: 1rem;
-    border-left: 5px solid #29F8Fa;
-    border-right: 5px solid #29F8Fa;
+    border-left: 5px ridge #29F8Fa;
+    border-right: 5px ridge #29F8Fa;
+
+    margin-bottom: 1rem;
 }
 
 #hero
 {
-    text-align: left;
+    text-align: center;
     font-family: Anton;
+}
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#hero h2
+{
+    color: #29F8Fa;
+    font-size: 24pt;
+    padding: .5rem;
+
+    background-color: #333;
+    border-radius: 20px;
+    border: 5px ridge #29F8Fa;
+
+    margin-bottom: 1rem;
 }
 
 #hero p
 {
-    text-align: left;
     padding: .5rem;
+    color: #29F8Fa;
+    background-color: #333;
     font-family: Barlow, serif;
 
     display: flex;
@@ -52,28 +63,23 @@ header
     align-items: center;
 
     border-radius: 20px;
-    border: 5px solid #29F8Fa;
-}
-
-p
-{
-    color: #29F8Fa;
-    background-color: #333;
-    font-family: Barlow, serif;
+    border: 5px ridge #29F8Fa;
 
     text-align: center;
 
-    padding: 3px;
+    margin-bottom: 1rem;
 }
 
 #bio
 {
     color: #29F8Fa;
     background-color: #333;
-    padding:  1rem;
+    padding: 1rem;
 
     border-radius: 20px;
-    border: 5px solid #29F8Fa;
+    border: 5px ridge #29F8Fa;
+
+    margin-bottom: 1rem;
 }
 
 #hobbies
@@ -85,15 +91,9 @@ p
 
     padding:  1rem;
     border-radius: 20px;
-    border: 5px solid #29F8Fa;
+    border: 5px ridge #29F8Fa;
 
     margin-bottom: 1rem;
-
-    /*
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    */
 }
 
 #photos
@@ -102,7 +102,9 @@ p
     background-color: #333;
 
     border-radius: 20px;
-    border: 5px solid #29F8Fa;
+    border: 5px ridge #29F8Fa;
+
+    padding: 1rem;
 }
 
 #photos figure
@@ -144,7 +146,7 @@ p
     background-image: linear-gradient(90deg, #220000, black, #220000);
 
     border-radius: 20px;
-    border: 5px solid #29F8Fa;
+    border: 5px ridge #29F8Fa;
 }
 
 #article h2
@@ -188,6 +190,7 @@ p
 {
     max-width: 55rem;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 footer
@@ -203,7 +206,7 @@ footer
     font-family: Barlow, serif;
 
     text-align: left;
-    border: 5px solid #29F8Fa;
+    border: 5px ridge #29F8Fa;
     
     padding: 3px;
 }
@@ -229,7 +232,7 @@ footer
     text-align: center;
 
     border-radius: 20px;
-    border: 5px solid #29F8Fa;
+    border: 5px ridge #29F8Fa;
     background-color: #333;
 
     margin-top: 1rem;
@@ -271,7 +274,7 @@ footer
 {
     background-color: #333;
     border-radius: 20px;
-    border-top: 5px solid #29F8Fa;
+    border-top: 5px ridge #29F8Fa;
 
     padding-left: .25rem;
     padding-right: .25rem;
@@ -288,17 +291,32 @@ footer
 fieldset
 {
    border-radius: 20px;
-   border: 5px solid #29F8Fa;
+   border: 5px ridge #29F8Fa;
 
    color: #29F8Fa;
    background-color: #333;
+
+   margin-top: .5rem;
 }
 
 button{
-    width: 40%;
+    width: 100%;
     color: #333;
+
+    font-family: Barlow, serif;
+    font-weight: 600;
+    font-size: 12pt;
+
     background-color: #29F8Fa;
-    margin-top: .25rem;
+
+    border-radius: 20px;
+    border: 5px ridge #333;
+}
+
+.buttonwrapper
+{
+    margin-top: .5rem;
+    width: 40%;
 }
 
 #Links

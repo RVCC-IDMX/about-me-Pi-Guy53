@@ -3,7 +3,8 @@
 
 The HTML project for a web site that is 'About Me' or rather about a certain Mr. Vearin Terril
 
-This project was to learn about HTML and CSS coding, as well as to poke a little into JS. I learned how to create headers, tables, use grid and flex layouts, as well as how to target specific elements for styling (such as drop caps for letters)
+This project was to learn about HTML and CSS coding, as well as to poke a little into JS. I learned how to create headers, tables, use grid and flex layouts, as well as how to target specific elements for styling (such as drop caps for letters) 
+In addition to this, About Me was to showcase a little about myself, and to put that into a format that others could read, and appreciate. In my case however, I did not want information about me online, and so choses to use the Character persona of Vearin Terril. 
 
 #333333, #29f8fa, #fefefe,
 <br>

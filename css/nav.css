@@ -45,7 +45,8 @@ main{
 
 #logo img
 {
-    border-radius: 8vw;
+    border-radius: 20vw;
+    margin-right: .5rem;
 }
 
 #logo h1

@@ -34,6 +34,8 @@ body
     border-left: 5px ridge #29F8Fa;
     border-right: 5px ridge #29F8Fa;
 
+    width: 50%;
+
     margin-bottom: 1rem;
 }
 
@@ -303,8 +305,7 @@ footer
 
 .video iframe
 {
-    width: 560px;
-    height: 320px;
+    width: 100%;
 }
 
 #contact

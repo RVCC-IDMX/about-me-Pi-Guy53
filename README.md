@@ -17,5 +17,7 @@ In addition to this, About Me was to showcase a little about myself, and to put 
 [Crow icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/crow)
 Trident logo by NJ Huff, &copy;2020
 
+iFrame article information from: https://blog.duda.co/responsive-google-maps-for-your-website, https://wcmshelp.ucsc.edu/advanced/embedding-google/google-maps.html, https://developers.google.com/maps/documentation/embed/quickstart
+
 -Pi-Guy53:
 &copy; 2022 UsrnGamesInc, all rights reserved

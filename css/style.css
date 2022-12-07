@@ -458,6 +458,16 @@ button{
         font-size: 28pt;
     }
 
+    .gridcontent
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 100%;
+
+        font-size: 28pt;
+    }
+
     #mapContent
     {
         display: grid;
@@ -525,6 +535,25 @@ button{
     figure
     {
         grid-row: 2;
+    }
+
+    .gridcontent
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 100%;
+
+        align-items: center;
+
+        font-size: 16pt;
+    }
+
+    .imghover
+    {
+        height: 100%;        
+        border: 1px solid #444;
+        border-radius: 20px;
     }
 
     figure img {

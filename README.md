@@ -17,6 +17,7 @@ In addition to this, About Me was to showcase a little about myself, and to put 
 <img src = "img/color-swatches.png" style="width:100px;"/>
 
 [Crow icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/crow)
+
 Trident logo by NJ Huff, &copy;2020
 
 iFrame article information from: 

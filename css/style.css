@@ -120,6 +120,11 @@ body
     font-size: 22pt;
 }
 
+#photos figcaption
+{
+    padding: .5rem;
+}
+
 #photos img
 {
     width: 100%;
@@ -535,7 +540,12 @@ button{
     {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }     
+    }
+    
+    #photos img 
+    {
+        height: 100%;
+    }
 
     figure
     {

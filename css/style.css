@@ -238,6 +238,11 @@ body
     padding: 1rem;
 }
 
+#mapExample iframe
+{
+    border-radius: 20px;
+}
+
 #article
 {
     /*background-image: radial-gradient(black,black, #444444, white); /* good looking border might use later*/
